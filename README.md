@@ -1,29 +1,28 @@
-# .
+Задание по vue (optimalcity)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Table of contents
 
-## Recommended IDE Setup
+- [Обзор](#обзор)
+  - [Скриншот](#скриншот)
+  - [Ссылки](#ссылки)
+- [Что и как?](#что-и-как?)
+  - [Сделано с использованием](#сделано-с-использованием)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Обзор
 
-## Customize configuration
+### Скриншот
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![](./screenshot.png)
 
-## Project Setup
+### Ссылки
 
-```sh
-npm install
-```
+- Live Site URL: [https://effortless-dolphin-e42076.netlify.app](https://effortless-dolphin-e42076.netlify.app)
 
-### Compile and Hot-Reload for Development
+## Что и как?
 
-```sh
-npm run dev
-```
+### Сделано с использованием
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- HTML5
+- CSS
+- JavaScript
+- Vue
