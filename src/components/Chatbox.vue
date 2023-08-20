@@ -8,12 +8,12 @@
         chatuser: message.sender === `user`,
       }"
     >
-      <img class="chatbox-icon" :src="message.img" />
+      <img class="chatbox-icon" :src="`/assets/` + message.img" />
       <div class="chatbox-message">
         <img
           v-if="message.loading"
           class="chatbox-loading-animation"
-          src="../assets/loading.gif"
+          src="/assets/loading.gif"
         />
         <div v-else>{{ message.text }}</div>
       </div>
@@ -32,14 +32,14 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref} from "vue";
 
 let optionsHidden = ref(true);
 
 const messages = ref([
   {
     sender: "chatbot",
-    img: "/src/assets/robot2.jpg",
+    img: "../assets/robot2.jpg",
     loading: true,
     text: "Привет! Что я могу для Вас сделать?",
   },
@@ -74,13 +74,13 @@ function clickOption(id) {
   messages.value.push(
     {
       sender: "user",
-      img: "/src/assets/user.png",
+      img: "user.png",
       loading: true,
       text: `${options.find((option) => option.id === id).name}`,
     },
     {
       sender: "chatbot",
-      img: "/src/assets/robot2.jpg",
+      img: "robot2.jpg",
       loading: true,
       text: `Вы выбрали опцию "${
         options.find((option) => option.id === id).name
@@ -89,6 +89,8 @@ function clickOption(id) {
   );
   loadMessages();
 }
+
+
 </script>
 
 <style scoped>
