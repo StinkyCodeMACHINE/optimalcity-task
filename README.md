@@ -1,6 +1,6 @@
 Задание по vue (optimalcity)
 
-## Table of contents
+## Содержимое
 
 - [Обзор](#обзор)
   - [Скриншот](#скриншот)
@@ -16,7 +16,7 @@
 
 ### Ссылки
 
-- Live Site URL: [https://effortless-dolphin-e42076.netlify.app](https://effortless-dolphin-e42076.netlify.app)
+- Хостинг: [https://effortless-dolphin-e42076.netlify.app](https://effortless-dolphin-e42076.netlify.app)
 
 ## Что и как?
 

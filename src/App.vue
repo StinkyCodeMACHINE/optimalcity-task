@@ -4,7 +4,6 @@ import Chatbox from "./components/Chatbox.vue";
 
 <template>
   <Chatbox />
-  
 </template>
 
 <style scoped></style>
